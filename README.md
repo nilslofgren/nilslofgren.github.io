@@ -1,135 +1,338 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="My name is Nils">
+    <meta name="author" content="Nils Lofgren">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>My Website</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+       <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]--></head>
+<body>
+     <!-- NAV SECTION -->
+         <div class="navbar navbar-inverse navbar-fixed-top">
+       
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Nils Lofgren</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">    
+                    <li><a href="#home-sec">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                     <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#about">RESUME</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+     <!--END NAV SECTION -->
+    
+    <!--HOME SECTION-->
+    <div id="home-sec">   
+    <div class="container"  >
+        <div class="row text-center">
+            <div  class="col-md-12" >
+                <span class="head-main" >Hello, I'm Nils</span>
+                <h3 class="head-last col-md-8 col-md-offset-2  col-sm-8 col-sm-offset-2">/ SOFTWARE ENGINEER /</h3>
+         
+                 
+            </div>
+        </div>
+    </div>
+   
+    </div>
+     <!--END HOME SECTION-->  
+      <!--ABOUT SECTION-->
+    <section id="about"  >
+        <div class="container">
+            <div class="row g-pad-bottom ">
+                <div class="col-md-6 ">
 
-<body onload = "goHome()">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <i class="fa fa-plus"></i> SMALL INTRODUCTION
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h3>Efficient Programming is my passion</h3>
+                                 Since my early high school years, I have had a love for creating new and effective
+                        ways to solve problems both in programs or in my day to day life.  Once I found my passion I ran with it
+                        and it has led me to where I am today.
+         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <i class="fa fa-plus"></i>WORK EXPERIENCE
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                  <h3>Special Olympics</h3>
+                                Being involved in the Special Olympics program for the past year at Villanova
+                            has influenced my work for my freshman and sophomore year.  I was an assistant to
+                            the Computers & Registration committee and helped design lanyards, credentials, and 
+                            an app that deeply influence how Fall Festival is run on campus.  Over the past summer,
+                            I worked at Special Olympics Maryland to assist in maintaining financial files and worked
+                            with various accountants and employees that needed my assistance to get the best product.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <i class="fa fa-plus"></i>TBD
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h3>TBD</h3>
+                                TBD TBD
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+                                    <i class="fa fa-plus"></i>TBD
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapsefour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h3>TBD</h3>
+                                TBD TBD 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
 
-
-
-<link href = "shopDesign.css" rel = "stylesheet" type = "text/css"/>
-<script src="shopModifier.js"></script>
-
-
-
-<div class = "menu">
-<h1>Nova Necessities</h1>
-
-
-<tr>
-      <th><button type="button" onclick="goHome()" style = "margin-right: 100px">Home</button></th>
-      <th><button type="button" onclick="showItems()" style = "margin-right: 100px">Clothing</button></th>
-      <th><button type="button" onclick="showPrice()" style = "margin-right: 100px">Price Calculator</button></th>
-      <th><button type="button" onclick="showContact()" style = "margin-right: 100px">Contact Us</button></th>
-      <th><form method="get">
-      Name: <input type="text" name="fname" "margin-right: 100px" />
-      <input type="submit" /> </th>
-</tr>
-
+            </div>
+                 <div class="col-md-6 ">
+                     <h1 >Nils Lofgren</h1>
+                     <h4>Software Engineer</h4>
+                     <p>
+                                   Computer Science and Mathematics student at Villanova University.
+                                   Class of 2019.
+                                </p>
+                       <a href="tempResume.pdf" class="btn btn-primary btn-lg">DOWNLOAD MY RESUME</a>
+                 </div>
+                  </div>
+                
+          <div class="row text-center g-pad-bottom">
+                
+                <div class="col-md-12">
+                      <h2>MY SKILL SET</h2>
+                    <br />
+                    <div class="alert-info">
+                        <div class="progress progress-adjust">
+  <div class="progress-bar progress-bar-success" style="width: 40%">
+    <div class="skill-div">Java 40%</div>  
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+  <div class="progress-bar progress-bar-warning" style="width: 30%">
+     <div class="skill-div"> C 30%</div> 
+    <span class="sr-only">30% Complete (warning)</span>
+  </div>
+  <div class="progress-bar progress-bar-danger" style="width: 15%">
+      <div class="skill-div"> UNIX 15%</div> 
+    <span class="sr-only">15% Complete (danger)</span>
+  </div>
+     <div class="progress-bar progress-bar-primary" style="width: 15%">
+      <div class="skill-div"> HTML/CSS 15%</div> 
+    <span class="sr-only">15% Complete (danger)</span>
+  </div>
 </div>
-<div class = "modifier">
-<?php
-  $filehandle = fopen("bestCustomer.txt","r");
-  $value = fgets($filehandle);
-  fclose($filehandle);
-?>
+                    </div>
+                          
 
-<h2>Our Best Customer is <?php echo($value); ?></h2>
+                    </div>
+                
+              
+        </div>
+        </div>
+    </section>
+    <!--END ABOUT SECTION-->
+    <!-- TESTIMONIAL SECTION-->
+    <section id="testimonial" >
+        <div class="container">
+    <div class="row ">
+            <div class="col-md-12">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
 
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-example" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example" data-slide-to="2" class=""></li>
+                    </ol>
 
-<?php
-  $filehandle = fopen("bestCustomer.txt","w");
-  fputs($filehandle, $_GET["fname"]);
-  fclose($filehandle);
-?>
-</div>
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                                   
+                                    <h4><i class="fa fa-quote-left"></i>
+                                         Nils perfects a saying that I have impressed on him, Everything Matters. 
+                                        <i class="fa fa-quote-right"></i></h4>
+                                     <div class="user-img pull-right">
+						<img src="assets/img/amitoj.jpg" alt="" class="img-u image-responsive img-circle">
+					</div>
+                                    <h5 class="pull-right"><strong class="c-set" >Amitoj</strong></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item active left">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                                    <h4> <i class="fa fa-quote-left"></i> He's an awesome guy. <i class="fa fa-quote-right"></i></h4>
+                                         <div class="user-img pull-right">
+						<img src="assets/img/bakey.jpg" alt="" class="img-u image-responsive">
+					</div>
+                                    <h5 class="pull-right"><strong class="c-set" >Bakey</strong></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item next left">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                                    <h4><i class="fa fa-quote-left"></i>I don't know, he's alright. <i class="fa fa-quote-right"></i></h4>
+                                        <div class="user-img pull-right">
+						<img src="assets/img/julia.jpg" alt="" class="img-u image-responsive">
+					</div>
+                                    <h5 class="pull-right"><strong class="c-set">Julia</strong></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </section>
+     <!--END TESTIMONIAL SECTION-->
+   <!--PROJECT SECTION-->
+    <section id="project" >
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-6">
+                     
+                    <img src="assets/img/project.jpg" class="img-responsive img-thumbnail" alt="">
+                    </div>
+        <div class="col-md-6">
+                     
+                     <h2>CURRENT PROJECT NAME</h2>
+                    <p>
+                        TBD
+                    </p>
+            
+            <div class="alert alert-info text-center">
+                          <h4> COMPANY : TBD</h4> 
+                          <hr>
+                          <p>
+                         TBD
+                        </p>
+                          <hr>
+                           <a href="#" class="btn btn-info">Read Full Details (TBD)</a> 
+                        </div>
+                    </div>
+                
+            </div>
+             
+        </div>
+    </section>
+     <!--END PROJECT SECTION-->
+     
+     <!--CONTACT SECTION-->
+     <section class="qry" id="contact" >
+          <div class="container">
+              <div class="row ">
+                             <form>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Email address">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Notes">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                                                   <button type="submit" class="btn btn-success">Submit Request</button>
 
+                            </div>
+                                 </form>
+                        </div>
+          </div>
+     </section>
+    <section >
+       <iframe class="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999841.293321206!2d-75.80920404999999!3d42.75594204999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew+York!5e0!3m2!1sen!2s!4v1395313088825"></iframe>
+   <div class="add">
+ <i>Email: </i> nlofgren@villanova.edu
+   </div>
+       
+         </section>
+    
+     <!--END CONTACT SECTION-->
+  
+    <!--FOOTER SECTION -->
+    <div id="footer">
+        2016 www.nilslofgren.me | All Right Reserved  
+         
+    </div>
+    <!-- END FOOTER SECTION -->
 
-
-
-
-<div class = "home">
-<p id = "info"> This store holds items that can entertain all of your needs.  Looking for clothes? Look no further.  Nova Necessities
-	offers high quality clothing that both looks good and is comfortable.<br> Our products include apparel that represent Villanova University.
-  After Villanova's recent victory we have just received shipments of championship gear so that you can look your best with unbeatable clothing.
-  If you do not like the products we give you you can return what you bought and be refunded completely.</p>
-
-</div>
-
-<div class = "items" id = "items">
-
-<img src = "sweatshirt.jpg" alt = "sweatshirt">
-<h2> Villanova Sweatshirt </h2>
-<p> Price: $30.00 </p>
-
-<img src = "shorts.jpg" alt = "shorts">
-<h3> Villanova Basketball Shorts </h3>
-<p> Price: $12.00 </p>
-
-<img src = "finalfourhat.jpg" alt = "Final Four Hat">
-<h4> Final Four Hat 2016 </h4>
-<p> Price: $8.00 </p>
-
-<img src = "longsleeve.jpg" alt = "Long Sleeve Shirt">
-<h5> Long Sleeve Shirt </h5>
-<p> Price: $23.00 </p>
-
-
-</div>
-
-
-
-<footer id = "contact">
-	<p> Created by: Nils Lofgren </p>
-	<p> Contact me at: <a href = "malito = nlofgren@villanova.edu" style = 'color: #c2c2d6;'>nlofgren@villanova.edu</a>. </p>
-</footer>
-
-<div class = "backgroundColor">
-<div id = "calc">
-
-  Villanova Sweatshirt: <input type="text" id = "sweatshirts" value="0"> * $30<br>
-  Basketball Shorts: <input type="text" id = "shorts" value="0"> * $12<br>
-  Final Four Hat: <input type="text" id = "hats" value="0"> * $8<br>
-  Long Sleeve Shirt: <input type="text" id = "shirts" value="0"> * $23<br><br>
-  <button type = "button" onclick="myCalculator()">Total: </button>
-   <input type = "text" id = "total" value = "">
-  <div class = "total" id = "total">
-
-  <p id = "total1"></p>
-</div>
-
-
-
-</div>
-
-<div id = "address">
-<p> Where would you like this order to be shipped too? </p> <br>
-  Home Address: <input type = "text" value = ""> <br>
-  City: <input type = "text" value = "">
-  State: <input type = "text" value = ""> <br>
-  Zip Code: <input type = "text" value = ""> <br>
-  Email Address: <input type = "text" value = ""> <br><br>
-  Choose your payment: <select name = "cardType"> <br><br>
-      <option value = "Credit Card"> Credit Card </option>
-      <option value = "Debit Card"> Debit Card </option>
-      <option value = "Gift Card"> Gift Card </option>
-  </select>
-  <br>
-  Card Number: <input type = "text" id = "cardNum" value = "">
-  <button type = "button" onclick = "cardNumCheck()" onclick = "showOrder()"> Next </button>
-
-
-
-
-</div>
-</div>
-
-<div class = "order" id = "order">
-<p> Your order has been placed! </p>
-<button type = "button" onclick = "goHome()"> Back to Homepage </button>
-</div>
-
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.min.js"></script>  
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
 
 </body>
-
 </html>
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help

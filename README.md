@@ -318,7 +318,7 @@
                                 
 
                             
-                            <a href="nilslofgren.me/assets/php/Email-Form.php"> Submit Request </a>                                    
+                            <a href="/assets/php/Email-Form.php"> Submit Request </a>                                    
 
                             </div>
                                                                    

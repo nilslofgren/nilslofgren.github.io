@@ -284,7 +284,7 @@
                          Creating a Calculator app with Java GUIs to expand functionality of GUIs in Java.
                         </p>
                           <hr>
-                           <a href="nilslofgren.me/github" class="btn btn-info">My GitHub</a> 
+                           <a href="/github" class="btn btn-info">My GitHub</a> 
                         </div>
                     </div>
                 

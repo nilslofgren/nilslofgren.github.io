@@ -316,10 +316,9 @@
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                
+                            <input type="submit" value="Send Form">    
 
-                            
-                            <a href="/assets/php/Email-Form.php"> Submit Request </a>                                    
+                                                            
 
                             </div>
                                                                    

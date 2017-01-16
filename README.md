@@ -227,7 +227,7 @@
                                          Nils..... What a guy! 
                                         <i class="fa fa-quote-right"></i></h4>
                                      <div class="user-img pull-right">
-						<img src="amitoj.JPG" alt="" class="img-u image-responsive img-circle">
+						<img src="amitoj.jpg" alt="" class="img-u image-responsive img-circle">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Amitoj</strong></h5>
                                 </div>
@@ -238,7 +238,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4> <i class="fa fa-quote-left"></i> He's an awesome guy. <i class="fa fa-quote-right"></i></h4>
                                          <div class="user-img pull-right">
-						<img src="bakey.JPG" alt="" class="img-u image-responsive">
+						<img src="bakey.jpg" alt="" class="img-u image-responsive">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Bakey</strong></h5>
                                 </div>
@@ -249,9 +249,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4><i class="fa fa-quote-left"></i>I don't know, he's alright. <i class="fa fa-quote-right"></i></h4>
                                         <div class="user-img pull-right">
-						<img src="julia.JPG" alt="" class="img-u image-responsive">
-					</div>
-                                    <h5 class="pull-right"><strong class="c-set">Julia</strong></h5>
+						<img src="julia.jpg" alt="" class="img-u image-responsive">
                                 </div>
                             </div>
                         </div>
@@ -284,7 +282,7 @@
                          Creating a Calculator app with Java GUIs to expand functionality of GUIs in Java.
                         </p>
                           <hr>
-                           <a href="nilslofgren.me/github" class="btn btn-info">My GitHub</a> 
+                           <a href="www.github.com/nilslofgren/" class="btn btn-info">My GitHub</a> 
                         </div>
                     </div>
                 
@@ -297,7 +295,6 @@
      <!--CONTACT SECTION-->
      <section class="qry" id="contact" >
           <div class="container">
-	  <h8>Send a request to reach out to me.</h8>
               <div class="row ">
                             <form name="contactform" method="post" action="Email-Form.php">
                             <div class="col-md-3 ">
@@ -316,17 +313,15 @@
                                 </div>
                             </div>
                             <div class="col-md-3">
-                                
+                            <input type ="submit" value="Send Form">
+
 
                             
-                            <a href="/assets/php/Email-Form.php"> Submit Request </a>                                    
+                                                               
 
                             </div>
-                                                                   
-
-                            
-			 </form>
-                        </div>
+                            </form>
+                </div>
           </div>
      </section>
     <section >

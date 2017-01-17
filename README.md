@@ -299,7 +299,7 @@
           <div class="container">
 	  <h8>Send a request to reach out to me.</h8>
               <div class="row ">
-                            <form name="contactform" method="post" action="Email-Form.php">
+                            <form name="contactform" method="post" action="nilslofgren.github.io/assets/php/Email-Form.php">
                             <div class="col-md-3 ">
                                 <div class="form-group">
                                     <input type="text" name = "first_name" class="form-control" required="required" placeholder="Name">

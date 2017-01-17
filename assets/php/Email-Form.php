@@ -1,32 +1,29 @@
 <?php
-	if(!isset($_POST['submit']))
-	{
-		echo "error; you need to submit the form!";
-	}
-	$name = $_POST['name'];
-	$visitor_email = $_POST['email'];
-	$message = $_POST['message'];
-
-	if(empty($name)||empty($visitor_email)) 
-	{
-	    echo "Name and email are mandatory!";
-	    exit;
-	}
-
-	if(IsInjected($visitor_email))
-	{
-	    echo "Bad email value!";
-	    exit;
-	}
-
-	$email_from = 'nlofgren@nilslofgren.me';
-	$email_subject = "New Form submission";
-	$email_body = "You have received a new message from the user $name.\n".
-	    "Here is the message:\n $message".
-
-	$to = "nlofgren@nilslofgren.me";
-	$headers = "From: $visitor_email \r\n";
-	$headers .= "Reply-To: $visitor_email \r\n";
-	mail($to,$email_subject,$email_body,$headers);
-	echo "Message Sent";
-?>
+/**
+ * This example shows sending a message using PHP's mail() function.
+ */
+require '../PHPMailerAutoload.php';
+//Create a new PHPMailer instance
+$mail = new PHPMailer;
+$email_from = $_POST['email'];
+$name = $_POST['name'];
+//Set who the message is to be sent from
+$mail->setFrom($email_from, $name);
+//Set an alternative reply-to address
+$mail->addReplyTo('nlofgren@villanova.edu', 'Nils Lofgren');
+//Set who the message is to be sent to
+$mail->addAddress('nlofgren@nilslofgren.me', 'Nils Lofgren');
+//Set the subject line
+$mail->Subject = 'PHPMailer mail() test';
+//Read an HTML message body from an external file, convert referenced images to embedded,
+//convert HTML into a basic plain-text alternative body
+$mail->msgHTML(file_get_contents('index-revised.html'), dirname(__FILE__));
+//Replace the plain text body with one created manually
+$notes = $_POST['notes'];
+$mail->AltBody = $notes;
+//send the message, check for errors
+if (!$mail->send()) {
+    echo "Mailer Error: " . $mail->ErrorInfo;
+} else {
+    echo "Message sent!";
+}

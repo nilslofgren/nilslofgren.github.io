@@ -19,13 +19,13 @@
 	    exit;
 	}
 
-	$email_from = 'nilslofgren@nilslofgren.me';
+	$email_from = 'nlofgren@nilslofgren.me';
 	$email_subject = "New Form submission";
 	$email_body = "You have received a new message from the user $name.\n".
 	    "Here is the message:\n $message".
 
-	$to = "nilslofgren@nilslofgren.me";
-	$headers = "From: $email_from \r\n";
+	$to = "nlofgren@nilslofgren.me";
+	$headers = "From: $visitor_email \r\n";
 	$headers .= "Reply-To: $visitor_email \r\n";
 	mail($to,$email_subject,$email_body,$headers);
 	echo "Message Sent";

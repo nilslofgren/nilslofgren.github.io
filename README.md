@@ -295,39 +295,7 @@
      <!--END PROJECT SECTION-->
      
      <!--CONTACT SECTION-->
-     <section class="qry" id="contact" >
-          <div class="container">
-	  <h8>Send a request to reach out to me.</h8>
-              <div class="row ">
-                            <form name="contactform" method="post" action="nilslofgren.github.io/assets/php/Email-Form.php">
-                            <div class="col-md-3 ">
-                                <div class="form-group">
-                                    <input type="text" name = "first_name" class="form-control" required="required" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <input type="text" name = "email" class="form-control" required="required" placeholder="Email address">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <input type="text" name = "notes" class="form-control" required="required" placeholder="Notes">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="submit" value="Send Form">    
 
-                                                            
-
-                            </div>
-                                                                   
-
-                            
-			 </form>
-                        </div>
-          </div>
-     </section>
     <section >
    <div class="add">
  <p> Contact me at: <a href = "malito = nlofgren@villanova.edu" style = 'color: #2f12e2;'>nlofgren@villanova.edu</a>. </p>

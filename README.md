@@ -128,7 +128,7 @@
                                 on campus including Fall Festival (the world's largest student-run Special Olympics event) and
                                 the graduation and commencement ceremonies for undergraduate and graduate students.  I am 
                                 also a member of the Villanova in the Valley cohort and we travel to Silicon Valley to speak
-                                and network with various executives from a range of companies. 
+                                and network with various executives from a range of high tech companies. 
                             </div>
                         </div>
                     </div>

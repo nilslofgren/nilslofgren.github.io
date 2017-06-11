@@ -104,10 +104,10 @@
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                                   <h3>Special Olympics</h3>
-                                Being involved in the Special Olympics program for the past year at Villanova
+                                Being involved in the Special Olympics program for the past 2 years at Villanova
                             has influenced my work for my freshman and sophomore year.  I was an assistant to
                             the Computers & Registration committee and helped design lanyards, credentials, and 
-                            an app that deeply influence how Fall Festival is run on campus.  Over the past summer,
+                            an app that deeply influence how Fall Festival is run on campus.  This year I am the chair of the committee.  Over the past summer,
                             I worked at Special Olympics Maryland to assist in maintaining financial files and worked
                             with various accountants and employees that needed my assistance to get the best product.
                             </div>

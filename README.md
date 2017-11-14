@@ -136,19 +136,14 @@
                         <div class="panel-heading">
                             <h4 class="panel-title panel-title-adjust">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
-                                    <i class="fa fa-plus"></i>INTERESTS
+                                    <i class="fa fa-plus"></i>TBD
                                 </a>
                             </h4>
                         </div>
                         <div id="collapsefour" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <h3>New Technology</h3>
-                                My interests include developing new technology or software that directly influences
-                                our society for the better.  To have the ability to research and develop new tech
-                                that is on the horizon for society is my dream.
-                                <h4>Non-Tech related</h4>
-                                I love soccer, hiking, and team oriented games.  If I'm not playing any type of game, I'll be reading
-                                a book or solving riddles and puzzles to pass the time.
+                                <h3>TBD</h3>
+                                TBD TBD
                             </div>
                         </div>
                     </div>
@@ -186,14 +181,10 @@
       <div class="skill-div"> UNIX 15%</div>
     <span class="sr-only">15% Complete (danger)</span>
   </div>
-     <div class="progress-bar progress-bar-primary" style="width: 10%">
-      <div class="skill-div"> HTML/CSS 10%</div>
-    <span class="sr-only">10% Complete (danger)</span>
+     <div class="progress-bar progress-bar-primary" style="width: 15%">
+      <div class="skill-div"> HTML/CSS 15%</div>
+    <span class="sr-only">15% Complete (danger)</span>
   </div>
-    <div class="progress-bar progress-bar-success" style="width: 5%">
-      <div class="skill-div"> Python 5%</div>
-    <span class="sr-only">5% Complete (success)</span>
-   </div>
 </div>
                     </div>
 
@@ -224,7 +215,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
 
                                     <h4><i class="fa fa-quote-left"></i>
-                                         Nils..... What a guy!
+                                         Nils perfects a saying that I have impressed on him, Everything Matters.
                                         <i class="fa fa-quote-right"></i></h4>
                                      <div class="user-img pull-right">
 						<img src="amitoj.jpg" alt="" class="img-u image-responsive img-circle">
@@ -250,6 +241,8 @@
                                     <h4><i class="fa fa-quote-left"></i>I don't know, he's alright. <i class="fa fa-quote-right"></i></h4>
                                         <div class="user-img pull-right">
 						<img src="julia.jpg" alt="" class="img-u image-responsive">
+					</div>
+                                    <h5 class="pull-right"><strong class="c-set">Julia</strong></h5>
                                 </div>
                             </div>
                         </div>
@@ -270,21 +263,22 @@
                     </div>
         <div class="col-md-6">
 
-                     <h2>Java GUI Calculator</h2>
-                    <p>
-                        In Progress
-                    </p>
+          <h2>Java GUI Calculator</h2>
+         <p>
+             In Progress
+         </p>
 
-            <div class="alert alert-info text-center">
-                          <h4> SOLO PROJECT</h4>
-                          <hr>
-                          <p>
-                         Creating a Calculator app with Java GUIs to expand functionality of GUIs in Java.
-                        </p>
-                          <hr>
-                           <a href="www.github.com/nilslofgren/" class="btn btn-info">My GitHub</a>
-                        </div>
-                    </div>
+         <div class="alert alert-info text-center">
+                       <h4> SOLO PROJECT</h4>
+                       <hr>
+                       <p>
+                      Creating a Calculator app with Java GUIs to expand functionality of GUIs in Java.
+                     </p>
+                       <hr>
+                        <a href="www.github.com/nilslofgren/" class="btn btn-info">My GitHub</a>
+                     </div>
+                 </div>
+              </div>
 
             </div>
 
@@ -296,49 +290,46 @@
      <section class="qry" id="contact" >
           <div class="container">
               <div class="row ">
-                             <form action = "./assets/php/Email-Form.php" method = "get">
-                            <div class="col-md-3 ">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Email address">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Notes">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
+                <form action = "./assets/php/Email-Form.php" method = "get">
+               <div class="col-md-3 ">
+                   <div class="form-group">
+                       <input type="text" class="form-control" required="required" placeholder="Name">
+                   </div>
+               </div>
+               <div class="col-md-3">
+                   <div class="form-group">
+                       <input type="text" class="form-control" required="required" placeholder="Email address">
+                   </div>
+               </div>
+               <div class="col-md-3">
+                   <div class="form-group">
+                       <input type="text" class="form-control" required="required" placeholder="Notes">
+                   </div>
+               </div>
+               <div class="col-md-3">
 
-                                  <input type="submit" class="btn btn-success" value="Run Me Now!">
+                     <input type="submit" class="btn btn-success" value="Run Me Now!">
 
-                                  <!--  <button type="submit" class="btn btn-success">Submit Request</button> -->
+                     <!--  <button type="submit" class="btn btn-success">Submit Request</button> -->
 
 
-                            </div>
-                                 </form>
+               </div>
+                    </form>
                         </div>
           </div>
      </section>
-
     <section >
    <div class="add">
-     <p> Contact me at: <a href = "malito = nlofgren@villanova.edu" style = 'color: #2f12e2;'>nlofgren@villanova.edu</a>. </p>
+    <p> Contact me at: <a href = "malito = nlofgren@villanova.edu" style = 'color: #2f12e2;'>nlofgren@villanova.edu</a>. </p>
    </div>
 
-    </section>
+         </section>
 
      <!--END CONTACT SECTION-->
 
     <!--FOOTER SECTION -->
     <div id="footer">
         2016 www.nilslofgren.me | All Right Reserved
-        <br>
-        Thanks to Creative Commons for design.
 
     </div>
     <!-- END FOOTER SECTION -->
@@ -350,3 +341,6 @@
     <script src="assets/plugins/bootstrap.min.js"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
+
+</body>
+</html>

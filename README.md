@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -29,7 +29,7 @@
 <body>
      <!-- NAV SECTION -->
          <div class="navbar navbar-inverse navbar-fixed-top">
-       
+
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -40,7 +40,7 @@
                 <a class="navbar-brand" href="#">Nils Lofgren</a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">    
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home-sec">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                      <li><a href="#project">PROJECTS</a></li>
@@ -48,26 +48,26 @@
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
-           
+
         </div>
     </div>
      <!--END NAV SECTION -->
-    
+
     <!--HOME SECTION-->
-    <div id="home-sec">   
+    <div id="home-sec">
     <div class="container"  >
         <div class="row text-center">
             <div  class="col-md-12" >
                 <span class="head-main" >Hello, I'm Nils</span>
                 <h3 class="head-last col-md-8 col-md-offset-2  col-sm-8 col-sm-offset-2">/ SOFTWARE ENGINEER /</h3>
-         
-                 
+
+
             </div>
         </div>
     </div>
-   
+
     </div>
-     <!--END HOME SECTION-->  
+     <!--END HOME SECTION-->
       <!--ABOUT SECTION-->
     <section id="about"  >
         <div class="container">
@@ -89,7 +89,7 @@
                                  Since my early high school years, I have had a love for creating new and effective
                         ways to solve problems both in programs or in my day to day life.  Once I found my passion I ran with it
                         and it has led me to where I am today.
-         
+
                             </div>
                         </div>
                     </div>
@@ -104,10 +104,10 @@
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                                   <h3>Special Olympics</h3>
-                                Being involved in the Special Olympics program for the past 2 years at Villanova
+                                Being involved in the Special Olympics program for the past year at Villanova
                             has influenced my work for my freshman and sophomore year.  I was an assistant to
-                            the Computers & Registration committee and helped design lanyards, credentials, and 
-                            an app that deeply influence how Fall Festival is run on campus.  This year I am the chair of the committee.  Over the past summer,
+                            the Computers & Registration committee and helped design lanyards, credentials, and
+                            an app that deeply influence how Fall Festival is run on campus.  Over the past summer,
                             I worked at Special Olympics Maryland to assist in maintaining financial files and worked
                             with various accountants and employees that needed my assistance to get the best product.
                             </div>
@@ -126,9 +126,9 @@
                                 <h3>Leadership</h3>
                                 I am involved in two committees on campus that organize, plan, and direct two major events
                                 on campus including Fall Festival (the world's largest student-run Special Olympics event) and
-                                the graduation and commencement ceremonies for undergraduate and graduate students.  I am 
+                                the graduation and commencement ceremonies for undergraduate and graduate students.  I am
                                 also a member of the Villanova in the Valley cohort and we travel to Silicon Valley to speak
-                                and network with various executives from a range of high tech companies. 
+                                and network with various executives from a range of companies.
                             </div>
                         </div>
                     </div>
@@ -148,11 +148,11 @@
                                 that is on the horizon for society is my dream.
                                 <h4>Non-Tech related</h4>
                                 I love soccer, hiking, and team oriented games.  If I'm not playing any type of game, I'll be reading
-                                a book or solving riddles and puzzles to pass the time. 
+                                a book or solving riddles and puzzles to pass the time.
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -166,41 +166,41 @@
                        <a href="tempResume.pdf" class="btn btn-primary btn-lg">DOWNLOAD MY RESUME</a>
                  </div>
                   </div>
-                
+
           <div class="row text-center g-pad-bottom">
-                
+
                 <div class="col-md-12">
                       <h2>MY SKILL SET</h2>
                     <br />
                     <div class="alert-info">
                         <div class="progress progress-adjust">
   <div class="progress-bar progress-bar-success" style="width: 40%">
-    <div class="skill-div">Java 40%</div>  
+    <div class="skill-div">Java 40%</div>
     <span class="sr-only">40% Complete (success)</span>
   </div>
   <div class="progress-bar progress-bar-warning" style="width: 30%">
-     <div class="skill-div"> C 30%</div> 
+     <div class="skill-div"> C 30%</div>
     <span class="sr-only">30% Complete (warning)</span>
   </div>
   <div class="progress-bar progress-bar-danger" style="width: 15%">
-      <div class="skill-div"> UNIX 15%</div> 
+      <div class="skill-div"> UNIX 15%</div>
     <span class="sr-only">15% Complete (danger)</span>
   </div>
      <div class="progress-bar progress-bar-primary" style="width: 10%">
-      <div class="skill-div"> HTML/CSS 10%</div> 
+      <div class="skill-div"> HTML/CSS 10%</div>
     <span class="sr-only">10% Complete (danger)</span>
   </div>
     <div class="progress-bar progress-bar-success" style="width: 5%">
-      <div class="skill-div"> Python 5%</div> 
+      <div class="skill-div"> Python 5%</div>
     <span class="sr-only">5% Complete (success)</span>
    </div>
 </div>
                     </div>
-                          
+
 
                     </div>
-                
-              
+
+
         </div>
         </div>
     </section>
@@ -222,12 +222,12 @@
                         <div class="item">
                             <div class="container center">
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
-                                   
+
                                     <h4><i class="fa fa-quote-left"></i>
-                                         Nils..... What a guy! 
+                                         Nils..... What a guy!
                                         <i class="fa fa-quote-right"></i></h4>
                                      <div class="user-img pull-right">
-						<img src="amitoj.JPG" alt="" class="img-u image-responsive img-circle">
+						<img src="amitoj.jpg" alt="" class="img-u image-responsive img-circle">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Amitoj</strong></h5>
                                 </div>
@@ -238,7 +238,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4> <i class="fa fa-quote-left"></i> He's an awesome guy. <i class="fa fa-quote-right"></i></h4>
                                          <div class="user-img pull-right">
-						<img src="bakey.JPG" alt="" class="img-u image-responsive">
+						<img src="bakey.jpg" alt="" class="img-u image-responsive">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Bakey</strong></h5>
                                 </div>
@@ -249,9 +249,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4><i class="fa fa-quote-left"></i>I don't know, he's alright. <i class="fa fa-quote-right"></i></h4>
                                         <div class="user-img pull-right">
-						<img src="julia.JPG" alt="" class="img-u image-responsive">
-					</div>
-                                    <h5 class="pull-right"><strong class="c-set">Julia</strong></h5>
+						<img src="julia.jpg" alt="" class="img-u image-responsive">
                                 </div>
                             </div>
                         </div>
@@ -267,50 +265,81 @@
         <div class="container">
             <div class="row">
                  <div class="col-md-6">
-                     
+
                     <img src="assets/img/project.jpg" class="img-responsive img-thumbnail" alt="">
                     </div>
         <div class="col-md-6">
-                     
+
                      <h2>Java GUI Calculator</h2>
                     <p>
                         In Progress
                     </p>
-            
+
             <div class="alert alert-info text-center">
-                          <h4> SOLO PROJECT</h4> 
+                          <h4> SOLO PROJECT</h4>
                           <hr>
                           <p>
                          Creating a Calculator app with Java GUIs to expand functionality of GUIs in Java.
                         </p>
                           <hr>
-                           <a href="https://github.com/nilslofgren/" class="btn btn-info">My GitHub</a> 
+                           <a href="www.github.com/nilslofgren/" class="btn btn-info">My GitHub</a>
                         </div>
                     </div>
-                
+
             </div>
-             
+
         </div>
     </section>
      <!--END PROJECT SECTION-->
-     
+
      <!--CONTACT SECTION-->
+     <section class="qry" id="contact" >
+          <div class="container">
+              <div class="row ">
+                             <form action = "./assets/php/Email-Form.php" method = "get">
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Email address">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Notes">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+
+                                  <input type="submit" class="btn btn-success" value="Run Me Now!">
+
+                                  <!--  <button type="submit" class="btn btn-success">Submit Request</button> -->
+
+
+                            </div>
+                                 </form>
+                        </div>
+          </div>
+     </section>
 
     <section >
    <div class="add">
- <p> Contact me at: <a href = "malito = nlofgren@villanova.edu" style = 'color: #2f12e2;'>nlofgren@villanova.edu</a>. </p>
+     <p> Contact me at: <a href = "malito = nlofgren@villanova.edu" style = 'color: #2f12e2;'>nlofgren@villanova.edu</a>. </p>
    </div>
-       
-         </section>
-    
+
+    </section>
+
      <!--END CONTACT SECTION-->
-  
+
     <!--FOOTER SECTION -->
     <div id="footer">
         2016 www.nilslofgren.me | All Right Reserved
         <br>
-        Thanks to Creative Commons for design.  
-         
+        Thanks to Creative Commons for design.
+
     </div>
     <!-- END FOOTER SECTION -->
 
@@ -318,7 +347,7 @@
     <!-- CORE JQUERY  -->
     <script src="assets/plugins/jquery-1.10.2.js"></script>
     <!-- BOOTSTRAP CORE SCRIPT   -->
-    <script src="assets/plugins/bootstrap.min.js"></script>  
+    <script src="assets/plugins/bootstrap.min.js"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
 

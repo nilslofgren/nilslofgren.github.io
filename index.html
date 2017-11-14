@@ -308,7 +308,7 @@
                </div>
                <div class="col-md-3">
 
-                     <input type="submit" class="btn btn-success" value="Run Me Now!">
+                     <input type="submit" class="btn btn-success" value="Submit Request">
 
                      <!--  <button type="submit" class="btn btn-success">Submit Request</button> -->
 

@@ -142,8 +142,13 @@
                         </div>
                         <div id="collapsefour" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <h3>TBD</h3>
-                                TBD TBD
+                                <h3>New Technology</h3>
+                                My interests include developing new technology or software that directly influences
+                                our society for the better.  To have the ability to research and develop new tech
+                                that is on the horizon for society is my dream.
+                                <h4>Non-Tech related</h4>
+                                I love soccer	, hiking, and team oriented games.  If I'm not playing any type of game, I'll be reading
+                                a book or solving riddles and puzzles to pass the time.
                             </div>
                         </div>
                     </div>

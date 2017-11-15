@@ -218,7 +218,7 @@
                                          Nils perfects a saying that I have impressed on him, Everything Matters.
                                         <i class="fa fa-quote-right"></i></h4>
                                      <div class="user-img pull-right">
-						<img src="amitoj.JPG" alt="" class="img-u image-responsive img-circle">
+						<img src="./assets/img/amitoj.JPG" alt="" class="img-u image-responsive img-circle">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Amitoj</strong></h5>
                                 </div>
@@ -229,7 +229,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4> <i class="fa fa-quote-left"></i> He's an awesome guy. <i class="fa fa-quote-right"></i></h4>
                                          <div class="user-img pull-right">
-						<img src="bakey.JPG" alt="" class="img-u image-responsive">
+						<img src="./assets/img/bakey.JPG" alt="" class="img-u image-responsive">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Bakey</strong></h5>
                                 </div>
@@ -240,7 +240,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4><i class="fa fa-quote-left"></i>I don't know, he's alright. <i class="fa fa-quote-right"></i></h4>
                                         <div class="user-img pull-right">
-						<img src="julia.JPG" alt="" class="img-u image-responsive">
+						<img src="./assets/img/julia.JPG" alt="" class="img-u image-responsive">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set">Julia</strong></h5>
                                 </div>

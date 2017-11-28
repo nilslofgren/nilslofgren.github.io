@@ -298,17 +298,17 @@
                 <form action = "./assets/php/Email-Form.php" method = "get">
                <div class="col-md-3 ">
                    <div class="form-group">
-                       <input type="text" class="form-control" required="required" placeholder="Name">
+                       <input type="text" name="name" class="form-control" required="required" placeholder="Name">
                    </div>
                </div>
                <div class="col-md-3">
                    <div class="form-group">
-                       <input type="text" class="form-control" required="required" placeholder="Email address">
+                       <input type="text" name="email" class="form-control" required="required" placeholder="Email address">
                    </div>
                </div>
                <div class="col-md-3">
                    <div class="form-group">
-                       <input type="text" class="form-control" required="required" placeholder="Notes">
+                       <input type="text" name="notes" class="form-control" required="required" placeholder="Notes">
                    </div>
                </div>
                <div class="col-md-3">

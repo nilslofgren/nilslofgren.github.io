@@ -313,7 +313,8 @@
                </div>
                <div class="col-md-3">
 
-                     <input type="submit" class="btn btn-success" value="Submit Request">
+                     <input type="submit" class="btn btn-success" value="Submit Request*">
+                     <p> *Button not functional because Github does not support server side PHP </p>
 
                      <!--  <button type="submit" class="btn btn-success">Submit Request</button> -->
 

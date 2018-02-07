@@ -295,7 +295,7 @@
      <section class="qry" id="contact" >
           <div class="container">
               <div class="row ">
-                <form action = "./assets/php/Email-Form.php" method = "get">
+                <!-- <form action = "./assets/php/Email-Form.php" method = "get"> -->
                <div class="col-md-3 ">
                    <div class="form-group">
                        <input type="text" name="name" class="form-control" required="required" placeholder="Name">

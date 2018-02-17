@@ -163,7 +163,7 @@
                                    Computer Science and Mathematics student at Villanova University.
                                    Class of 2019.
                                 </p>
-                       <a href="tempResume.pdf" class="btn btn-primary btn-lg">DOWNLOAD MY RESUME</a>
+                       <a href="Resume.pdf" class="btn btn-primary btn-lg">VIEW MY RESUME</a>
                  </div>
                   </div>
 

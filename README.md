@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -147,7 +147,7 @@
                                 our society for the better.  To have the ability to research and develop new tech
                                 that is on the horizon for society is my dream.
                                 <h4>Non-Tech related</h4>
-                                I love soccer	, hiking, and team oriented games.  If I'm not playing any type of game, I'll be reading
+                                I love soccer, hiking, and team oriented games.  If I'm not playing any type of game, I'll be reading
                                 a book or solving riddles and puzzles to pass the time.
                             </div>
                         </div>
@@ -163,7 +163,8 @@
                                    Computer Science and Mathematics student at Villanova University.
                                    Class of 2019.
                                 </p>
-                       <a href="Resume.pdf" class="btn btn-primary btn-lg">VIEW MY RESUME</a>
+                       <a href="Resume.pdf" target="_blank" class="btn btn-primary btn-lg">VIEW MY RESUME</a>
+                       <a href="https://www.linkedin.com/in/nils-lofgren/" target="_blank" class="btn btn-primary btn-lg">MY LINKEDIN</a>
                  </div>
                   </div>
 
@@ -223,7 +224,7 @@
                                          Nils perfects a saying that I have impressed on him, Everything Matters.
                                         <i class="fa fa-quote-right"></i></h4>
                                      <div class="user-img pull-right">
-						<img src="assets/img/amitoj.JPG" alt="" class="img-u image-responsive img-circle">
+						<img src="assets/img/amitoj.jpg" alt="" class="img-u image-responsive img-circle">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Amitoj</strong></h5>
                                 </div>
@@ -234,7 +235,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4> <i class="fa fa-quote-left"></i> He's an awesome guy. <i class="fa fa-quote-right"></i></h4>
                                          <div class="user-img pull-right">
-						<img src="assets/img/bakey.JPG" alt="" class="img-u image-responsive">
+						<img src="assets/img/bakey.jpg" alt="" class="img-u image-responsive">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set" >Bakey</strong></h5>
                                 </div>
@@ -245,7 +246,7 @@
                                 <div class="col-md-6 col-md-offset-3 slide-custom">
                                     <h4><i class="fa fa-quote-left"></i>I don't know, he's alright. <i class="fa fa-quote-right"></i></h4>
                                         <div class="user-img pull-right">
-						<img src="assets/img/julia.JPG" alt="" class="img-u image-responsive">
+						<img src="assets/img/julia.jpg" alt="" class="img-u image-responsive">
 					</div>
                                     <h5 class="pull-right"><strong class="c-set">Julia</strong></h5>
                                 </div>
@@ -268,19 +269,21 @@
                     </div>
         <div class="col-md-6">
 
-          <h2>Java GUI Calculator</h2>
+          <h2>Villanova Off Campus Housing</h2>
          <p>
              In Progress
          </p>
 
          <div class="alert alert-info text-center">
-                       <h4> SOLO PROJECT</h4>
+                       <h4> MY PROJECT</h4>
                        <hr>
                        <p>
-                      Creating a Calculator app with Java GUIs to expand functionality of GUIs in Java.
+                      Creating a web application to help Villanova students find off campus housing
+                      for their senior year.  Currently, the document the University provides is
+                      extremely underwhelming and needs to be updated.
                      </p>
                        <hr>
-                        <a href="https://github.com/nilslofgren/" class="btn btn-info">My GitHub</a>
+                        <a href="https://github.com/nilslofgren/" target="_blank" class="btn btn-info">My GitHub</a>
                      </div>
                  </div>
               </div>
@@ -295,7 +298,7 @@
      <section class="qry" id="contact" >
           <div class="container">
               <div class="row ">
-                <!-- <form action = "./assets/php/Email-Form.php" method = "get"> -->
+                <form action = "./assets/php/Email-Form.php" method = "get">
                <div class="col-md-3 ">
                    <div class="form-group">
                        <input type="text" name="name" class="form-control" required="required" placeholder="Name">
@@ -314,7 +317,7 @@
                <div class="col-md-3">
 
                      <input type="submit" class="btn btn-success" value="Submit Request*">
-                     <p> *Button not functional because Github does not support server side PHP </p>
+                     <p> *Button does not work because server side PHP does not work on Github hosted websites </p>
 
                      <!--  <button type="submit" class="btn btn-success">Submit Request</button> -->
 

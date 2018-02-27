@@ -59,7 +59,9 @@ $email_message = "Notes".clean_string($notes)."\n";
 $headers = 'From: '.$email."\r\n".
 'Reply-To: '.$email."\r\n".
 'X-Mailer: PHP/' . phpversion();
-$response = "Sending Your Request!\nSending email to: ".$email_to.".\n";
+$response = "Sending Your Request!\nSending email to: ".$email_to.".\n
+              with this subject: ".$email_subject."\n and this message: ".$email_message."\n
+              and these headers: ".$headers.".\n";
 echo nl2br($response);
 mail($email_to, $email_subject, $email_message, $headers);
 

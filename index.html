@@ -163,7 +163,7 @@
                                    Computer Science and Mathematics student at Villanova University.
                                    Class of 2019.
                                 </p>
-                       <a href="Resume.pdf" target="_blank" class="btn btn-primary btn-lg">VIEW MY RESUME</a>
+                       <a href="Resume-Revised2.pdf" target="_blank" class="btn btn-primary btn-lg">VIEW MY RESUME</a>
                        <a href="https://www.linkedin.com/in/nils-lofgren/" target="_blank" class="btn btn-primary btn-lg">MY LINKEDIN</a>
                  </div>
                   </div>

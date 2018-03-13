@@ -67,7 +67,6 @@ mail($email_to, $email_subject, $email_message, $headers);
 
 function died($error) {
 
-    // your error code can go here
 
     echo "We are very sorry, but there were error(s) found with the form you submitted. ";
 

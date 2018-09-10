@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Sublet Paradise</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+	<style>
+      #map {
+       height: 400px;
+       width: 100%;
+      }
+      .controls {
+      background-color: #fff;
+      border-radius: 2px;
+      border: 1px solid transparent;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      height: 29px;
+      margin-left: 17px;
+      margin-top: 10px;
+      outline: none;
+      padding: 0 11px 0 13px;
+      text-overflow: ellipsis;
+      width: 400px;
+    }
+
+    .controls:focus {
+      border-color: #4d90fe;
+    }
+    .title {
+      font-weight: bold;
+    }
+    #infowindow-content {
+      display: none;
+    }
+    #map #infowindow-content {
+      display: inline;
+    }
+    </style>
+</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Villanova housing portal for off campus housing">
+    <meta name="author" content="Nils Lofgren and Nick Savino">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="css/form-style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+	    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Sublet Paradise</a>
+		<div class="form-row">
+        <p> Select your campus here: </p>
+        <br>
+      </div>
+      <div class = "dropdownClass">
+        <select id="campuses" class="dropdown" placeholder="Choose Campus Here..">
+          <option value="Villanova University"> Villanova University</option>
+          <option value="Drexel University"> Drexel University</option>
+        </select>
+        <button type="button" class="btn btn-primary" onclick="initMap()">Search</button>
+              </div>
+
+        <a class="btn btn-primary" href="form.html">Add Your Property</a>
+      </div>
+
+    </nav>
+    <meta id="address" content="Boston, MA">
+
+
+<br>
+      <!-- Image Showcases -->
+    <section class="showcase">
+
+	<div class="wrap">
+    <div class="floatleft">
+    <input id="pac-input" class="controls" type="text"
+       placeholder="Enter a location">
+		<div id="map"></div>
+    <div id="infowindow-content">
+     <span id="place-name"  class="title"></span><br>
+     <span id="place-address"></span>
+   </div>
+   <script src="javascript/mapHandler.js"></script>
+    <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF7qRtOjwySV1scxzdS7h-_L23zyAOIA0&libraries=places&callback=initMap">
+    </script>
+
+
+    </div>
+	<div class="floatright">
+	<div class="row no-gutters">
+
+
+        </div>
+	</div>
+    <div style="clear: both;">
+	</div>
+	</section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Sublet Paradise 2018. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
